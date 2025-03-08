@@ -9,9 +9,10 @@
 - **Color Enhancement:** Increases color vibrancy for a more lively appearance.
 
 ## Technologies Used
-- jekyll
-- bulmas css
-- javascript Canvas
+- Jekyll
+- Bulma css
+- Font-Awesome
+- Javascript Canvas
 
 ## Live Demo
 [https://rokhimin.github.io/photo-enhancer](https://rokhimin.github.io/photo-enhancer)
