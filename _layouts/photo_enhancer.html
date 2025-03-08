@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<div class="app-container">
+    
+    <div class="main-box">
+        
+    <div class="header-section">
+        <h1 class="title is-2">Photo Enhancer</h1>
+      </div>
+        <article class="message is-link">
+            <div class="message-header">
+                <p>Improves sharpness, reduces noise, optimizes brightness, and enhances details using <strong>HTML5 Canvas</strong> .</p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+          </article>
+      
+      <div id="drop-area" class="drop-area">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <p class="drop-area-text">Drag & drop your image here</p>
+        <p>or</p>
+        <div class="file is-link is-centered mt-3">
+          <label class="file-label">
+            <input class="file-input" type="file" id="image-upload" accept="image/*">
+            <span class="file-cta">
+              <span class="file-label">
+                Choose a file…
+              </span>
+            </span>
+          </label>
+        </div>
+      </div>
+      
+      <div class="button-container hidden" id="enhancement-controls">
+        <button class="button is-link is-medium" id="enhance-button">
+          <span class="icon">
+            <i class="fas fa-magic"></i>
+          </span>
+          <span>Enhance Photo</span>
+        </button>
+      </div>
+      
+      <div class="progress-wrapper hidden" id="progress-container">
+        <progress class="progress is-link" id="progress-bar" value="0" max="100"></progress>
+        <p class="has-text-centered" id="loading-text">Enhancing your image...</p>
+      </div>
+    </div>
+    
+    <div class="preview-container hidden" id="preview-container">
+      <div class="image-container">
+        <div class="comparison-label">
+          <span class="icon"><i class="fas fa-image"></i></span>
+          <span>Original</span>
+        </div>
+        <img id="original-image" src="" alt="Original image">
+      </div>
+      <div class="image-container">
+        <div class="comparison-label">
+          <span class="icon"><i class="fas fa-star"></i></span>
+          <span>Enhanced</span>
+        </div>
+        <img id="enhanced-image" src="" alt="Enhanced image">
+        <div class="p-3">
+          <a class="button is-info is-fullwidth" id="download-button">
+            <span class="icon">
+              <i class="fas fa-download"></i>
+            </span>
+            <span>Download Enhanced Image</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="{{ site.baseurl }}/assets/photo_enhancer.js"></script>
