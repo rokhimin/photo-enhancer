@@ -1,21 +1,49 @@
+### readMe
+# Photo Enhancer
+**Photo Enhancer** is a web-based application designed to instantly improve image quality using advanced image processing techniques. Users can upload images and apply enhancements such as noise reduction, detail sharpening, and brightness & contrast optimization.
 
-#ReadMe
+## Features
+- **Noise Reduction:** Removes noise to create a cleaner image.
+- **Detail Sharpening:** Enhances image clarity and sharpness.
+- **Brightness & Contrast Optimization:** Adjusts brightness and contrast for better visuals.
+- **Color Enhancement:** Increases color vibrancy for a more lively appearance.
 
-#### About
-xxx
+## Technologies Used
+- jekyll
+- bulmas css
+- javascript Canvas
 
-Live Demo : https://rokhimin.github.io/photo-enhancer
+## Live Demo
+[https://rokhimin.github.io/photo-enhancer](https://rokhimin.github.io/photo-enhancer)
 
+https://photo-enhancer-sooty.vercel.app/
 
-## Contributing
+## Contribution
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rokhimin/photo-enhancer/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub: [https://github.com/rokhimin/photo-enhancer](https://github.com/rokhimin/photo-enhancer). This project aims to be a safe and collaborative space, and all contributors are expected to follow the Contributor Covenant Code of Conduct.
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
+To set up the development environment:
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/rokhimin/photo-enhancer.git
+   cd photo-enhancer
+   ```
+2. Install dependencies:
+   ```sh
+   bundle install
+   ```
+3. Start the Jekyll server:
+   ```sh
+   bundle exec jekyll serve
+   ```
+4. Open your browser and visit `http://localhost:4000`
+
+The site will automatically regenerate when changes are made.
+
+---
 
 ## License
 
